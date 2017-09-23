@@ -16,8 +16,8 @@ Once open just drag the slider or enter a value in the textbox. Click save and y
   
 ## Screenshots  
 ### 100% Scale (Default)
-![App Screenshot 1](/docs/images/app1.png?raw=true "App Screenshot 1")  
-![Keyboard Screenshot 1](/docs/images/keyboard1.png?raw=true "Keyboard Screenshot 1")  
+![App Screenshot 1](/docs/images/app1.PNG?raw=true "App Screenshot 1")  
+![Keyboard Screenshot 1](/docs/images/keyboard1.PNG?raw=true "Keyboard Screenshot 1")  
 ### 25% Scale  
-![App Screenshot 2](/docs/images/app2.png?raw=true "App Screenshot 2")  
-![Keyboard Screenshot 2](/docs/images/keyboard2.png?raw=true "Keyboard Screenshot 2")
+![App Screenshot 2](/docs/images/app2.PNG?raw=true "App Screenshot 2")  
+![Keyboard Screenshot 2](/docs/images/keyboard2.PNG?raw=true "Keyboard Screenshot 2")
