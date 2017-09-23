@@ -101,12 +101,19 @@ namespace Win10_Keyboard_Resizer
         /// </summary>
         private void RestartKeyboard()
         {
-            foreach (var process in Process.GetProcessesByName("TabTip"))
+            try
             {
-                process.Kill();
-                process.WaitForExit();
+                foreach (var process in Process.GetProcessesByName("TabTip"))
+                {
+                    process.Kill();
+                    process.WaitForExit();
+                }
+                Process.Start(@"C:\Program Files\Common Files\microsoft shared\ink\TabTip.exe");
             }
-            Process.Start("TabTip.exe");
+            catch (Exception e)
+            {
+                MessageBox.Show("There was an error restarting the keyboard!\r\n" + e.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         /// <summary>
