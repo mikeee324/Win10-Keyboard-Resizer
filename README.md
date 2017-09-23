@@ -11,7 +11,7 @@ The key it changes is here:
 The Value it changes is called `Monitorsize` and needs to be a `String` value.  
   
 ## How do I use it  
-You can download it from [here]()  
+You can download it from [here](https://github.com/mikeee324/Win10-Keyboard-Resizer/releases)  
 Once open just drag the slider or enter a value in the textbox. Click save and your On Screen keyboard should be smaller!
   
 ## Screenshots  
